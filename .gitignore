@@ -1,6 +1,10 @@
 # Files
 .DS_Store
-
+Makefile
+conf.py
+index.rst
+make.bat
 
 # Folders
 images/
+_build/
