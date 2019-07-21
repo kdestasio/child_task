@@ -1,0 +1,1181 @@
+4.4463 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+5.1093 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x13865aa90>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1384065f8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.1094 	EXP 	window1: recordFrameIntervals = False
+5.2755 	EXP 	window1: recordFrameIntervals = True
+5.4590 	EXP 	window1: recordFrameIntervals = False
+5.7489 	EXP 	Created text_welcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_welcome', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+5.7614 	EXP 	Created text_cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_cue', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+5.7621 	EXP 	Created jitter_blank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='jitter_blank', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+5.7647 	EXP 	Created display_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='display_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+5.7765 	EXP 	Created text_response = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_response', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='1   2   3   4   5', units='height', win=Window(...), wrapWidth=1)
+5.7805 	EXP 	Created fixation_cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.4, italic=False, languageStyle='LTR', name='fixation_cross', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+5.7882 	EXP 	Created text_end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_end', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Done.\n\nPlease stay still.', units='height', win=Window(...), wrapWidth=1)
+5.8257 	EXP 	text_welcome: autoDraw = True
+6.4805 	EXP 	Imported image_simuli.xlsx as conditions, 60 conditions, 3 params
+6.4809 	EXP 	Created sequence: random, trialTypes=60, nReps=1, seed=None
+6.4812 	EXP 	New trial (rep=0, index=0): OrderedDict([('imageFile', 'images/otherBaby/otherBaby15.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+6.4905 	DATA 	Keypress: apostrophe
+6.5146 	EXP 	text_welcome: autoDraw = False
+6.5146 	EXP 	text_cue: text = 'Other child'
+6.5146 	EXP 	text_cue: autoDraw = True
+10.4934 	EXP 	text_cue: autoDraw = False
+10.4934 	EXP 	jitter_blank: autoDraw = True
+11.7472 	EXP 	jitter_blank: autoDraw = False
+11.7472 	EXP 	jitter_blank: autoDraw = False
+11.7472 	EXP 	display_image: image = 'images/otherBaby/otherBaby15.jpg'
+11.7472 	EXP 	display_image: autoDraw = True
+12.7630 	DATA 	Keypress: 5
+16.6278 	EXP 	display_image: autoDraw = False
+16.6278 	EXP 	text_response: autoDraw = True
+17.1147 	DATA 	Keypress: 9
+17.1277 	EXP 	text_response: autoDraw = False
+17.1277 	EXP 	fixation_cross: autoDraw = True
+18.1954 	EXP 	New trial (rep=0, index=1): OrderedDict([('imageFile', 'images/notBaby/notBaby6.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+18.2280 	EXP 	fixation_cross: autoDraw = False
+18.2280 	EXP 	fixation_cross: autoDraw = False
+18.2280 	EXP 	text_cue: text = 'Not a child'
+18.2280 	EXP 	text_cue: autoDraw = True
+22.2122 	EXP 	text_cue: autoDraw = False
+22.2122 	EXP 	jitter_blank: autoDraw = True
+22.9897 	EXP 	jitter_blank: autoDraw = False
+22.9897 	EXP 	jitter_blank: autoDraw = False
+22.9897 	EXP 	display_image: image = 'images/notBaby/notBaby6.jpg'
+22.9897 	EXP 	display_image: autoDraw = True
+23.4488 	DATA 	Keypress: 7
+27.7806 	EXP 	display_image: autoDraw = False
+27.7806 	EXP 	text_response: autoDraw = True
+28.7183 	DATA 	Keypress: 9
+28.7307 	EXP 	text_response: autoDraw = False
+28.7307 	EXP 	fixation_cross: autoDraw = True
+29.9989 	EXP 	New trial (rep=0, index=2): OrderedDict([('imageFile', 'images/notBaby/notBaby20.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+30.0145 	EXP 	fixation_cross: autoDraw = False
+30.0145 	EXP 	fixation_cross: autoDraw = False
+30.0145 	EXP 	text_cue: text = 'Not a child'
+30.0145 	EXP 	text_cue: autoDraw = True
+34.0153 	EXP 	text_cue: autoDraw = False
+34.0153 	EXP 	jitter_blank: autoDraw = True
+34.9505 	EXP 	jitter_blank: autoDraw = False
+34.9505 	EXP 	jitter_blank: autoDraw = False
+34.9505 	EXP 	display_image: image = 'images/notBaby/notBaby20.jpg'
+34.9505 	EXP 	display_image: autoDraw = True
+39.7673 	EXP 	display_image: autoDraw = False
+39.7673 	EXP 	text_response: autoDraw = True
+40.1858 	DATA 	Keypress: 7
+40.1989 	EXP 	text_response: autoDraw = False
+40.1989 	EXP 	fixation_cross: autoDraw = True
+41.5008 	EXP 	New trial (rep=0, index=3): OrderedDict([('imageFile', 'images/otherBaby/otherBaby2.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+41.5329 	EXP 	fixation_cross: autoDraw = False
+41.5329 	EXP 	fixation_cross: autoDraw = False
+41.5329 	EXP 	text_cue: text = 'Other child'
+41.5329 	EXP 	text_cue: autoDraw = True
+45.5065 	EXP 	text_cue: autoDraw = False
+45.5065 	EXP 	text_cue: autoDraw = False
+45.5065 	EXP 	jitter_blank: autoDraw = True
+47.1170 	EXP 	jitter_blank: autoDraw = False
+47.1170 	EXP 	jitter_blank: autoDraw = False
+47.1170 	EXP 	display_image: image = 'images/otherBaby/otherBaby2.jpg'
+47.1170 	EXP 	display_image: autoDraw = True
+47.5711 	DATA 	Keypress: 8
+51.9355 	EXP 	display_image: autoDraw = False
+51.9355 	EXP 	text_response: autoDraw = True
+52.2720 	DATA 	Keypress: 8
+52.2851 	EXP 	text_response: autoDraw = False
+52.2851 	EXP 	fixation_cross: autoDraw = True
+53.4033 	EXP 	New trial (rep=0, index=4): OrderedDict([('imageFile', 'images/otherBaby/otherBaby3.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+53.4188 	EXP 	fixation_cross: autoDraw = False
+53.4188 	EXP 	fixation_cross: autoDraw = False
+53.4188 	EXP 	text_cue: text = 'Other child'
+53.4188 	EXP 	text_cue: autoDraw = True
+57.4197 	EXP 	text_cue: autoDraw = False
+57.4197 	EXP 	jitter_blank: autoDraw = True
+58.4135 	EXP 	jitter_blank: autoDraw = False
+58.4135 	EXP 	jitter_blank: autoDraw = False
+58.4135 	EXP 	display_image: image = 'images/otherBaby/otherBaby3.jpg'
+58.4135 	EXP 	display_image: autoDraw = True
+58.8891 	DATA 	Keypress: 6
+63.1703 	EXP 	display_image: autoDraw = False
+63.1703 	EXP 	text_response: autoDraw = True
+63.5903 	DATA 	Keypress: 6
+63.6041 	EXP 	text_response: autoDraw = False
+63.6041 	EXP 	fixation_cross: autoDraw = True
+64.2385 	EXP 	New trial (rep=0, index=5): OrderedDict([('imageFile', 'images/myBaby/myBaby14.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+64.2704 	EXP 	fixation_cross: autoDraw = False
+64.2704 	EXP 	fixation_cross: autoDraw = False
+64.2704 	EXP 	text_cue: text = 'My child'
+64.2704 	EXP 	text_cue: autoDraw = True
+68.2596 	EXP 	text_cue: autoDraw = False
+68.2596 	EXP 	text_cue: autoDraw = False
+68.2596 	EXP 	jitter_blank: autoDraw = True
+69.0887 	EXP 	jitter_blank: autoDraw = False
+69.0887 	EXP 	jitter_blank: autoDraw = False
+69.0887 	EXP 	display_image: image = 'images/myBaby/myBaby14.jpg'
+69.0887 	EXP 	display_image: autoDraw = True
+74.0733 	EXP 	display_image: autoDraw = False
+74.0733 	EXP 	text_response: autoDraw = True
+74.4262 	DATA 	Keypress: 7
+74.4394 	EXP 	text_response: autoDraw = False
+74.4394 	EXP 	fixation_cross: autoDraw = True
+75.1906 	EXP 	New trial (rep=0, index=6): OrderedDict([('imageFile', 'images/otherBaby/otherBaby6.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+75.2227 	EXP 	fixation_cross: autoDraw = False
+75.2227 	EXP 	fixation_cross: autoDraw = False
+75.2227 	EXP 	text_cue: text = 'Other child'
+75.2227 	EXP 	text_cue: autoDraw = True
+79.1996 	EXP 	text_cue: autoDraw = False
+79.1996 	EXP 	text_cue: autoDraw = False
+79.1996 	EXP 	jitter_blank: autoDraw = True
+80.7571 	EXP 	jitter_blank: autoDraw = False
+80.7571 	EXP 	jitter_blank: autoDraw = False
+80.7571 	EXP 	display_image: image = 'images/otherBaby/otherBaby6.jpg'
+80.7571 	EXP 	display_image: autoDraw = True
+81.1091 	DATA 	Keypress: 8
+82.0110 	DATA 	Keypress: 9
+83.1607 	DATA 	Keypress: 9
+85.5750 	EXP 	display_image: autoDraw = False
+85.5750 	EXP 	display_image: autoDraw = False
+85.5750 	EXP 	text_response: autoDraw = True
+85.9285 	DATA 	Keypress: 9
+85.9416 	EXP 	text_response: autoDraw = False
+85.9416 	EXP 	fixation_cross: autoDraw = True
+86.8431 	EXP 	New trial (rep=0, index=7): OrderedDict([('imageFile', 'images/myBaby/myBaby3.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+86.8748 	EXP 	fixation_cross: autoDraw = False
+86.8748 	EXP 	fixation_cross: autoDraw = False
+86.8748 	EXP 	text_cue: text = 'My child'
+86.8748 	EXP 	text_cue: autoDraw = True
+90.8453 	DATA 	Keypress: 5
+90.8595 	EXP 	text_cue: autoDraw = False
+90.8595 	EXP 	text_cue: autoDraw = False
+90.8595 	EXP 	jitter_blank: autoDraw = True
+92.2139 	DATA 	Keypress: 5
+92.2315 	EXP 	jitter_blank: autoDraw = False
+92.2315 	EXP 	jitter_blank: autoDraw = False
+92.2315 	EXP 	display_image: image = 'images/myBaby/myBaby3.jpg'
+92.2315 	EXP 	display_image: autoDraw = True
+93.7633 	DATA 	Keypress: 9
+94.1125 	DATA 	Keypress: 9
+94.4641 	DATA 	Keypress: 9
+95.1296 	DATA 	Keypress: 9
+95.6453 	DATA 	Keypress: 9
+96.1473 	DATA 	Keypress: 9
+96.8476 	DATA 	Keypress: 9
+97.0777 	EXP 	display_image: autoDraw = False
+97.0777 	EXP 	text_response: autoDraw = True
+97.6134 	DATA 	Keypress: 9
+97.6274 	EXP 	text_response: autoDraw = False
+97.6274 	EXP 	fixation_cross: autoDraw = True
+98.0144 	DATA 	Keypress: 9
+98.4965 	DATA 	Keypress: 9
+98.7955 	EXP 	New trial (rep=0, index=8): OrderedDict([('imageFile', 'images/otherBaby/otherBaby20.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+98.8279 	EXP 	fixation_cross: autoDraw = False
+98.8279 	EXP 	fixation_cross: autoDraw = False
+98.8279 	EXP 	text_cue: text = 'Other child'
+98.8279 	EXP 	text_cue: autoDraw = True
+98.8468 	DATA 	Keypress: 9
+99.1516 	DATA 	Keypress: 9
+99.4862 	DATA 	Keypress: 9
+99.7969 	DATA 	Keypress: 9
+100.1639 	DATA 	Keypress: 9
+101.1654 	DATA 	Keypress: 9
+101.7143 	DATA 	Keypress: 9
+102.2729 	DATA 	Keypress: 9
+102.6980 	DATA 	Keypress: 9
+102.8116 	EXP 	text_cue: autoDraw = False
+102.8116 	EXP 	text_cue: autoDraw = False
+102.8116 	EXP 	jitter_blank: autoDraw = True
+103.0973 	DATA 	Keypress: 9
+103.8366 	DATA 	Keypress: 9
+103.8533 	EXP 	jitter_blank: autoDraw = False
+103.8533 	EXP 	jitter_blank: autoDraw = False
+103.8533 	EXP 	display_image: image = 'images/otherBaby/otherBaby20.jpg'
+103.8533 	EXP 	display_image: autoDraw = True
+104.3989 	DATA 	Keypress: 9
+104.8648 	DATA 	Keypress: 9
+105.2658 	DATA 	Keypress: 9
+105.6327 	DATA 	Keypress: 9
+105.9979 	DATA 	Keypress: 9
+106.3649 	DATA 	Keypress: 9
+107.3165 	DATA 	Keypress: 5
+107.7811 	DATA 	Keypress: 5
+108.2161 	DATA 	Keypress: 5
+108.6129 	DATA 	Keypress: 5
+108.6766 	EXP 	display_image: autoDraw = False
+108.6766 	EXP 	display_image: autoDraw = False
+108.6766 	EXP 	text_response: autoDraw = True
+109.0304 	DATA 	Keypress: 6
+109.0442 	EXP 	text_response: autoDraw = False
+109.0442 	EXP 	fixation_cross: autoDraw = True
+110.2475 	EXP 	New trial (rep=0, index=9): OrderedDict([('imageFile', 'images/myBaby/myBaby1.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+110.2798 	EXP 	fixation_cross: autoDraw = False
+110.2798 	EXP 	fixation_cross: autoDraw = False
+110.2798 	EXP 	text_cue: text = 'My child'
+110.2798 	EXP 	text_cue: autoDraw = True
+114.2637 	EXP 	text_cue: autoDraw = False
+114.2637 	EXP 	jitter_blank: autoDraw = True
+115.3472 	EXP 	jitter_blank: autoDraw = False
+115.3472 	EXP 	jitter_blank: autoDraw = False
+115.3472 	EXP 	display_image: image = 'images/myBaby/myBaby1.jpg'
+115.3472 	EXP 	display_image: autoDraw = True
+120.2656 	EXP 	display_image: autoDraw = False
+120.2656 	EXP 	text_response: autoDraw = True
+120.6854 	DATA 	Keypress: 7
+120.6984 	EXP 	text_response: autoDraw = False
+120.6984 	EXP 	fixation_cross: autoDraw = True
+120.9179 	DATA 	Keypress: 7
+121.3042 	EXP 	New trial (rep=0, index=10): OrderedDict([('imageFile', 'images/myBaby/myBaby12.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+121.3217 	EXP 	fixation_cross: autoDraw = False
+121.3217 	EXP 	fixation_cross: autoDraw = False
+121.3217 	EXP 	text_cue: text = 'My child'
+121.3217 	EXP 	text_cue: autoDraw = True
+125.3206 	EXP 	text_cue: autoDraw = False
+125.3206 	EXP 	text_cue: autoDraw = False
+125.3206 	EXP 	jitter_blank: autoDraw = True
+126.1327 	EXP 	jitter_blank: autoDraw = False
+126.1327 	EXP 	jitter_blank: autoDraw = False
+126.1327 	EXP 	display_image: image = 'images/myBaby/myBaby12.jpg'
+126.1327 	EXP 	display_image: autoDraw = True
+127.8694 	DATA 	Keypress: 7
+131.0838 	EXP 	display_image: autoDraw = False
+131.0838 	EXP 	text_response: autoDraw = True
+131.7050 	DATA 	Keypress: 6
+131.7172 	EXP 	text_response: autoDraw = False
+131.7172 	EXP 	fixation_cross: autoDraw = True
+132.4182 	EXP 	New trial (rep=0, index=11): OrderedDict([('imageFile', 'images/myBaby/myBaby2.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+132.4335 	EXP 	fixation_cross: autoDraw = False
+132.4335 	EXP 	fixation_cross: autoDraw = False
+132.4335 	EXP 	text_cue: text = 'My child'
+132.4335 	EXP 	text_cue: autoDraw = True
+136.4349 	EXP 	text_cue: autoDraw = False
+136.4349 	EXP 	jitter_blank: autoDraw = True
+138.0197 	EXP 	jitter_blank: autoDraw = False
+138.0197 	EXP 	jitter_blank: autoDraw = False
+138.0197 	EXP 	display_image: image = 'images/myBaby/myBaby2.jpg'
+138.0197 	EXP 	display_image: autoDraw = True
+142.8689 	EXP 	display_image: autoDraw = False
+142.8689 	EXP 	display_image: autoDraw = False
+142.8689 	EXP 	text_response: autoDraw = True
+143.2610 	DATA 	Keypress: 5
+143.2696 	EXP 	text_response: autoDraw = False
+143.2696 	EXP 	fixation_cross: autoDraw = True
+143.9208 	EXP 	New trial (rep=0, index=12): OrderedDict([('imageFile', 'images/otherBaby/otherBaby7.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+143.9527 	EXP 	fixation_cross: autoDraw = False
+143.9527 	EXP 	fixation_cross: autoDraw = False
+143.9527 	EXP 	text_cue: text = 'Other child'
+143.9527 	EXP 	text_cue: autoDraw = True
+147.9269 	EXP 	text_cue: autoDraw = False
+147.9269 	EXP 	text_cue: autoDraw = False
+147.9269 	EXP 	jitter_blank: autoDraw = True
+148.4902 	EXP 	jitter_blank: autoDraw = False
+148.4902 	EXP 	jitter_blank: autoDraw = False
+148.4902 	EXP 	display_image: image = 'images/otherBaby/otherBaby7.jpg'
+148.4902 	EXP 	display_image: autoDraw = True
+153.4554 	EXP 	display_image: autoDraw = False
+153.4554 	EXP 	text_response: autoDraw = True
+154.1256 	DATA 	Keypress: 7
+154.1376 	EXP 	text_response: autoDraw = False
+154.1376 	EXP 	fixation_cross: autoDraw = True
+155.0132 	EXP 	New trial (rep=0, index=13): OrderedDict([('imageFile', 'images/myBaby/myBaby16.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+155.0432 	EXP 	fixation_cross: autoDraw = False
+155.0432 	EXP 	fixation_cross: autoDraw = False
+155.0432 	EXP 	text_cue: text = 'My child'
+155.0432 	EXP 	text_cue: autoDraw = True
+159.0225 	EXP 	text_cue: autoDraw = False
+159.0225 	EXP 	text_cue: autoDraw = False
+159.0225 	EXP 	jitter_blank: autoDraw = True
+160.0718 	EXP 	jitter_blank: autoDraw = False
+160.0718 	EXP 	jitter_blank: autoDraw = False
+160.0718 	EXP 	display_image: image = 'images/myBaby/myBaby16.jpg'
+160.0718 	EXP 	display_image: autoDraw = True
+164.9905 	EXP 	display_image: autoDraw = False
+164.9905 	EXP 	text_response: autoDraw = True
+165.4924 	DATA 	Keypress: 5
+165.5069 	EXP 	text_response: autoDraw = False
+165.5069 	EXP 	fixation_cross: autoDraw = True
+166.3248 	EXP 	New trial (rep=0, index=14): OrderedDict([('imageFile', 'images/otherBaby/otherBaby12.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+166.3571 	EXP 	fixation_cross: autoDraw = False
+166.3571 	EXP 	fixation_cross: autoDraw = False
+166.3571 	EXP 	text_cue: text = 'Other child'
+166.3571 	EXP 	text_cue: autoDraw = True
+170.3414 	EXP 	text_cue: autoDraw = False
+170.3414 	EXP 	jitter_blank: autoDraw = True
+171.7578 	EXP 	jitter_blank: autoDraw = False
+171.7578 	EXP 	jitter_blank: autoDraw = False
+171.7578 	EXP 	display_image: image = 'images/otherBaby/otherBaby12.jpg'
+171.7578 	EXP 	display_image: autoDraw = True
+176.7092 	EXP 	display_image: autoDraw = False
+176.7092 	EXP 	text_response: autoDraw = True
+177.1297 	DATA 	Keypress: 6
+177.1419 	EXP 	text_response: autoDraw = False
+177.1419 	EXP 	fixation_cross: autoDraw = True
+177.6773 	EXP 	New trial (rep=0, index=15): OrderedDict([('imageFile', 'images/myBaby/myBaby9.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+177.7088 	EXP 	fixation_cross: autoDraw = False
+177.7088 	EXP 	fixation_cross: autoDraw = False
+177.7088 	EXP 	text_cue: text = 'My child'
+177.7088 	EXP 	text_cue: autoDraw = True
+181.6938 	EXP 	text_cue: autoDraw = False
+181.6938 	EXP 	text_cue: autoDraw = False
+181.6938 	EXP 	jitter_blank: autoDraw = True
+182.6469 	EXP 	jitter_blank: autoDraw = False
+182.6469 	EXP 	jitter_blank: autoDraw = False
+182.6469 	EXP 	display_image: image = 'images/myBaby/myBaby9.jpg'
+182.6469 	EXP 	display_image: autoDraw = True
+187.6284 	EXP 	display_image: autoDraw = False
+187.6284 	EXP 	text_response: autoDraw = True
+188.0491 	DATA 	Keypress: 7
+188.0609 	EXP 	text_response: autoDraw = False
+188.0609 	EXP 	fixation_cross: autoDraw = True
+188.5623 	EXP 	New trial (rep=0, index=16): OrderedDict([('imageFile', 'images/notBaby/notBaby12.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+188.5796 	EXP 	fixation_cross: autoDraw = False
+188.5796 	EXP 	fixation_cross: autoDraw = False
+188.5796 	EXP 	text_cue: text = 'Not a child'
+188.5796 	EXP 	text_cue: autoDraw = True
+192.5791 	EXP 	text_cue: autoDraw = False
+192.5791 	EXP 	jitter_blank: autoDraw = True
+193.7817 	EXP 	jitter_blank: autoDraw = False
+193.7817 	EXP 	jitter_blank: autoDraw = False
+193.7817 	EXP 	display_image: image = 'images/notBaby/notBaby12.jpg'
+193.7817 	EXP 	display_image: autoDraw = True
+198.7468 	EXP 	display_image: autoDraw = False
+198.7468 	EXP 	text_response: autoDraw = True
+199.1842 	DATA 	Keypress: 6
+199.1965 	EXP 	text_response: autoDraw = False
+199.1965 	EXP 	fixation_cross: autoDraw = True
+200.3981 	EXP 	New trial (rep=0, index=17): OrderedDict([('imageFile', 'images/myBaby/myBaby10.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+200.4299 	EXP 	fixation_cross: autoDraw = False
+200.4299 	EXP 	fixation_cross: autoDraw = False
+200.4299 	EXP 	text_cue: text = 'My child'
+200.4299 	EXP 	text_cue: autoDraw = True
+204.4192 	EXP 	text_cue: autoDraw = False
+204.4192 	EXP 	text_cue: autoDraw = False
+204.4192 	EXP 	jitter_blank: autoDraw = True
+205.9968 	EXP 	jitter_blank: autoDraw = False
+205.9968 	EXP 	jitter_blank: autoDraw = False
+205.9968 	EXP 	display_image: image = 'images/myBaby/myBaby10.jpg'
+205.9968 	EXP 	display_image: autoDraw = True
+210.7830 	EXP 	display_image: autoDraw = False
+210.7830 	EXP 	text_response: autoDraw = True
+211.7533 	DATA 	Keypress: 6
+211.7654 	EXP 	text_response: autoDraw = False
+211.7654 	EXP 	fixation_cross: autoDraw = True
+212.6673 	EXP 	New trial (rep=0, index=18): OrderedDict([('imageFile', 'images/notBaby/notBaby15.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+212.6998 	EXP 	fixation_cross: autoDraw = False
+212.6998 	EXP 	fixation_cross: autoDraw = False
+212.6998 	EXP 	text_cue: text = 'Not a child'
+212.6998 	EXP 	text_cue: autoDraw = True
+216.6836 	EXP 	text_cue: autoDraw = False
+216.6836 	EXP 	jitter_blank: autoDraw = True
+217.7002 	EXP 	jitter_blank: autoDraw = False
+217.7002 	EXP 	jitter_blank: autoDraw = False
+217.7002 	EXP 	display_image: image = 'images/notBaby/notBaby15.jpg'
+217.7002 	EXP 	display_image: autoDraw = True
+222.6184 	EXP 	display_image: autoDraw = False
+222.6184 	EXP 	text_response: autoDraw = True
+223.0711 	DATA 	Keypress: 5
+223.0841 	EXP 	text_response: autoDraw = False
+223.0841 	EXP 	fixation_cross: autoDraw = True
+224.1198 	EXP 	New trial (rep=0, index=19): OrderedDict([('imageFile', 'images/notBaby/notBaby2.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+224.1351 	EXP 	fixation_cross: autoDraw = False
+224.1351 	EXP 	fixation_cross: autoDraw = False
+224.1351 	EXP 	text_cue: text = 'Not a child'
+224.1351 	EXP 	text_cue: autoDraw = True
+225.4387 	DATA 	Keypress: 8
+228.1275 	EXP 	text_cue: autoDraw = False
+228.1275 	EXP 	text_cue: autoDraw = False
+228.1275 	EXP 	jitter_blank: autoDraw = True
+229.4624 	EXP 	jitter_blank: autoDraw = False
+229.4624 	EXP 	jitter_blank: autoDraw = False
+229.4624 	EXP 	display_image: image = 'images/notBaby/notBaby2.jpg'
+229.4624 	EXP 	display_image: autoDraw = True
+234.2873 	EXP 	display_image: autoDraw = False
+234.2873 	EXP 	display_image: autoDraw = False
+234.2873 	EXP 	text_response: autoDraw = True
+235.5567 	DATA 	Keypress: 7
+235.5705 	EXP 	text_response: autoDraw = False
+235.5705 	EXP 	fixation_cross: autoDraw = True
+236.3387 	EXP 	New trial (rep=0, index=20): OrderedDict([('imageFile', 'images/otherBaby/otherBaby16.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+236.3702 	EXP 	fixation_cross: autoDraw = False
+236.3702 	EXP 	fixation_cross: autoDraw = False
+236.3702 	EXP 	text_cue: text = 'Other child'
+236.3702 	EXP 	text_cue: autoDraw = True
+240.3545 	EXP 	text_cue: autoDraw = False
+240.3545 	EXP 	text_cue: autoDraw = False
+240.3545 	EXP 	jitter_blank: autoDraw = True
+241.0393 	EXP 	jitter_blank: autoDraw = False
+241.0393 	EXP 	jitter_blank: autoDraw = False
+241.0393 	EXP 	display_image: image = 'images/otherBaby/otherBaby16.jpg'
+241.0393 	EXP 	display_image: autoDraw = True
+245.9728 	EXP 	display_image: autoDraw = False
+245.9728 	EXP 	text_response: autoDraw = True
+246.4099 	DATA 	Keypress: 5
+246.4222 	EXP 	text_response: autoDraw = False
+246.4222 	EXP 	fixation_cross: autoDraw = True
+247.7157 	EXP 	New trial (rep=0, index=21): OrderedDict([('imageFile', 'images/myBaby/myBaby7.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+247.7449 	EXP 	fixation_cross: autoDraw = False
+247.7449 	EXP 	fixation_cross: autoDraw = False
+247.7449 	EXP 	text_cue: text = 'My child'
+247.7449 	EXP 	text_cue: autoDraw = True
+251.7449 	EXP 	text_cue: autoDraw = False
+251.7449 	EXP 	jitter_blank: autoDraw = True
+252.8793 	EXP 	jitter_blank: autoDraw = False
+252.8793 	EXP 	jitter_blank: autoDraw = False
+252.8793 	EXP 	display_image: image = 'images/myBaby/myBaby7.jpg'
+252.8793 	EXP 	display_image: autoDraw = True
+257.8582 	EXP 	display_image: autoDraw = False
+257.8582 	EXP 	text_response: autoDraw = True
+258.8448 	DATA 	Keypress: 8
+258.8583 	EXP 	text_response: autoDraw = False
+258.8583 	EXP 	fixation_cross: autoDraw = True
+259.4597 	EXP 	New trial (rep=0, index=22): OrderedDict([('imageFile', 'images/notBaby/notBaby11.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+259.4912 	EXP 	fixation_cross: autoDraw = False
+259.4912 	EXP 	fixation_cross: autoDraw = False
+259.4912 	EXP 	text_cue: text = 'Not a child'
+259.4912 	EXP 	text_cue: autoDraw = True
+263.4759 	EXP 	text_cue: autoDraw = False
+263.4759 	EXP 	text_cue: autoDraw = False
+263.4759 	EXP 	jitter_blank: autoDraw = True
+264.1621 	EXP 	jitter_blank: autoDraw = False
+264.1621 	EXP 	jitter_blank: autoDraw = False
+264.1621 	EXP 	display_image: image = 'images/notBaby/notBaby11.jpg'
+264.1621 	EXP 	display_image: autoDraw = True
+269.0933 	EXP 	display_image: autoDraw = False
+269.0933 	EXP 	text_response: autoDraw = True
+269.8977 	DATA 	Keypress: 6
+269.9099 	EXP 	text_response: autoDraw = False
+269.9099 	EXP 	fixation_cross: autoDraw = True
+271.2953 	EXP 	New trial (rep=0, index=23): OrderedDict([('imageFile', 'images/notBaby/notBaby14.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+271.3107 	EXP 	fixation_cross: autoDraw = False
+271.3107 	EXP 	fixation_cross: autoDraw = False
+271.3107 	EXP 	text_cue: text = 'Not a child'
+271.3107 	EXP 	text_cue: autoDraw = True
+275.3116 	EXP 	text_cue: autoDraw = False
+275.3116 	EXP 	text_cue: autoDraw = False
+275.3116 	EXP 	jitter_blank: autoDraw = True
+275.8512 	EXP 	jitter_blank: autoDraw = False
+275.8512 	EXP 	jitter_blank: autoDraw = False
+275.8512 	EXP 	display_image: image = 'images/notBaby/notBaby14.jpg'
+275.8512 	EXP 	display_image: autoDraw = True
+280.8295 	EXP 	display_image: autoDraw = False
+280.8295 	EXP 	display_image: autoDraw = False
+280.8295 	EXP 	text_response: autoDraw = True
+281.8489 	DATA 	Keypress: 7
+281.8624 	EXP 	text_response: autoDraw = False
+281.8624 	EXP 	fixation_cross: autoDraw = True
+282.4972 	EXP 	New trial (rep=0, index=24): OrderedDict([('imageFile', 'images/notBaby/notBaby4.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+282.5130 	EXP 	fixation_cross: autoDraw = False
+282.5130 	EXP 	fixation_cross: autoDraw = False
+282.5130 	EXP 	text_cue: text = 'Not a child'
+282.5130 	EXP 	text_cue: autoDraw = True
+286.5137 	EXP 	text_cue: autoDraw = False
+286.5137 	EXP 	jitter_blank: autoDraw = True
+287.3500 	EXP 	jitter_blank: autoDraw = False
+287.3500 	EXP 	jitter_blank: autoDraw = False
+287.3500 	EXP 	display_image: image = 'images/notBaby/notBaby4.jpg'
+287.3500 	EXP 	display_image: autoDraw = True
+292.2490 	EXP 	display_image: autoDraw = False
+292.2490 	EXP 	text_response: autoDraw = True
+296.2235 	EXP 	text_response: autoDraw = False
+296.2235 	EXP 	text_response: autoDraw = False
+296.2235 	EXP 	fixation_cross: autoDraw = True
+296.6515 	DATA 	Keypress: 8
+297.6003 	EXP 	New trial (rep=0, index=25): OrderedDict([('imageFile', 'images/otherBaby/otherBaby13.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+297.6328 	EXP 	fixation_cross: autoDraw = False
+297.6328 	EXP 	fixation_cross: autoDraw = False
+297.6328 	EXP 	text_cue: text = 'Other child'
+297.6328 	EXP 	text_cue: autoDraw = True
+301.6081 	EXP 	text_cue: autoDraw = False
+301.6081 	EXP 	text_cue: autoDraw = False
+301.6081 	EXP 	jitter_blank: autoDraw = True
+302.4237 	EXP 	jitter_blank: autoDraw = False
+302.4237 	EXP 	jitter_blank: autoDraw = False
+302.4237 	EXP 	display_image: image = 'images/otherBaby/otherBaby13.jpg'
+302.4237 	EXP 	display_image: autoDraw = True
+307.3506 	EXP 	display_image: autoDraw = False
+307.3506 	EXP 	text_response: autoDraw = True
+308.0211 	DATA 	Keypress: 7
+308.0339 	EXP 	text_response: autoDraw = False
+308.0339 	EXP 	fixation_cross: autoDraw = True
+308.6192 	EXP 	New trial (rep=0, index=26): OrderedDict([('imageFile', 'images/myBaby/myBaby20.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+308.6514 	EXP 	fixation_cross: autoDraw = False
+308.6514 	EXP 	fixation_cross: autoDraw = False
+308.6514 	EXP 	text_cue: text = 'My child'
+308.6514 	EXP 	text_cue: autoDraw = True
+312.6347 	EXP 	text_cue: autoDraw = False
+312.6347 	EXP 	text_cue: autoDraw = False
+312.6347 	EXP 	jitter_blank: autoDraw = True
+313.6022 	EXP 	jitter_blank: autoDraw = False
+313.6022 	EXP 	jitter_blank: autoDraw = False
+313.6022 	EXP 	display_image: image = 'images/myBaby/myBaby20.jpg'
+313.6022 	EXP 	display_image: autoDraw = True
+318.4028 	EXP 	display_image: autoDraw = False
+318.4028 	EXP 	display_image: autoDraw = False
+318.4028 	EXP 	text_response: autoDraw = True
+319.6064 	DATA 	Keypress: 6
+319.6246 	EXP 	text_response: autoDraw = False
+319.6246 	EXP 	fixation_cross: autoDraw = True
+320.2212 	EXP 	New trial (rep=0, index=27): OrderedDict([('imageFile', 'images/myBaby/myBaby18.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+320.2368 	EXP 	fixation_cross: autoDraw = False
+320.2368 	EXP 	fixation_cross: autoDraw = False
+320.2368 	EXP 	text_cue: text = 'My child'
+320.2368 	EXP 	text_cue: autoDraw = True
+324.2377 	EXP 	text_cue: autoDraw = False
+324.2377 	EXP 	jitter_blank: autoDraw = True
+324.9375 	EXP 	jitter_blank: autoDraw = False
+324.9375 	EXP 	jitter_blank: autoDraw = False
+324.9375 	EXP 	display_image: image = 'images/myBaby/myBaby18.jpg'
+324.9375 	EXP 	display_image: autoDraw = True
+327.5075 	DATA 	Keypress: 6
+329.9057 	EXP 	display_image: autoDraw = False
+329.9057 	EXP 	text_response: autoDraw = True
+329.9581 	DATA 	Keypress: 7
+329.9718 	EXP 	text_response: autoDraw = False
+329.9718 	EXP 	fixation_cross: autoDraw = True
+331.2567 	EXP 	New trial (rep=0, index=28): OrderedDict([('imageFile', 'images/notBaby/notBaby16.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+331.2885 	EXP 	fixation_cross: autoDraw = False
+331.2885 	EXP 	fixation_cross: autoDraw = False
+331.2885 	EXP 	text_cue: text = 'Not a child'
+331.2885 	EXP 	text_cue: autoDraw = True
+335.2731 	EXP 	text_cue: autoDraw = False
+335.2731 	EXP 	jitter_blank: autoDraw = True
+336.3733 	EXP 	jitter_blank: autoDraw = False
+336.3733 	EXP 	jitter_blank: autoDraw = False
+336.3733 	EXP 	display_image: image = 'images/notBaby/notBaby16.jpg'
+336.3733 	EXP 	display_image: autoDraw = True
+341.3079 	EXP 	display_image: autoDraw = False
+341.3079 	EXP 	text_response: autoDraw = True
+341.8766 	DATA 	Keypress: 6
+341.8908 	EXP 	text_response: autoDraw = False
+341.8908 	EXP 	fixation_cross: autoDraw = True
+343.2422 	EXP 	New trial (rep=0, index=29): OrderedDict([('imageFile', 'images/notBaby/notBaby8.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+343.2580 	EXP 	fixation_cross: autoDraw = False
+343.2580 	EXP 	fixation_cross: autoDraw = False
+343.2580 	EXP 	text_cue: text = 'Not a child'
+343.2580 	EXP 	text_cue: autoDraw = True
+347.2587 	EXP 	text_cue: autoDraw = False
+347.2587 	EXP 	jitter_blank: autoDraw = True
+347.9249 	EXP 	jitter_blank: autoDraw = False
+347.9249 	EXP 	jitter_blank: autoDraw = False
+347.9249 	EXP 	display_image: image = 'images/notBaby/notBaby8.jpg'
+347.9249 	EXP 	display_image: autoDraw = True
+352.8095 	EXP 	display_image: autoDraw = False
+352.8095 	EXP 	text_response: autoDraw = True
+354.3695 	DATA 	Keypress: 9
+354.3859 	EXP 	text_response: autoDraw = False
+354.3859 	EXP 	fixation_cross: autoDraw = True
+355.6782 	EXP 	New trial (rep=0, index=30): OrderedDict([('imageFile', 'images/myBaby/myBaby15.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+355.7099 	EXP 	fixation_cross: autoDraw = False
+355.7099 	EXP 	fixation_cross: autoDraw = False
+355.7099 	EXP 	text_cue: text = 'My child'
+355.7099 	EXP 	text_cue: autoDraw = True
+359.6944 	EXP 	text_cue: autoDraw = False
+359.6944 	EXP 	jitter_blank: autoDraw = True
+360.8274 	EXP 	jitter_blank: autoDraw = False
+360.8274 	EXP 	jitter_blank: autoDraw = False
+360.8274 	EXP 	display_image: image = 'images/myBaby/myBaby15.jpg'
+360.8274 	EXP 	display_image: autoDraw = True
+363.5474 	DATA 	Keypress: 6
+365.3800 	DATA 	Keypress: 5
+365.7458 	EXP 	display_image: autoDraw = False
+365.7458 	EXP 	text_response: autoDraw = True
+365.8321 	DATA 	Keypress: 5
+365.8452 	EXP 	text_response: autoDraw = False
+365.8452 	EXP 	fixation_cross: autoDraw = True
+367.0302 	EXP 	New trial (rep=0, index=31): OrderedDict([('imageFile', 'images/myBaby/myBaby19.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+367.0457 	EXP 	fixation_cross: autoDraw = False
+367.0457 	EXP 	fixation_cross: autoDraw = False
+367.0457 	EXP 	text_cue: text = 'My child'
+367.0457 	EXP 	text_cue: autoDraw = True
+371.0525 	EXP 	text_cue: autoDraw = False
+371.0525 	EXP 	jitter_blank: autoDraw = True
+372.6734 	EXP 	jitter_blank: autoDraw = False
+372.6734 	EXP 	jitter_blank: autoDraw = False
+372.6734 	EXP 	display_image: image = 'images/myBaby/myBaby19.jpg'
+372.6734 	EXP 	display_image: autoDraw = True
+375.1828 	DATA 	Keypress: 6
+376.3837 	DATA 	Keypress: 6
+376.7183 	DATA 	Keypress: 6
+377.2816 	DATA 	Keypress: 6
+377.4955 	EXP 	display_image: autoDraw = False
+377.4955 	EXP 	display_image: autoDraw = False
+377.4955 	EXP 	text_response: autoDraw = True
+378.4178 	DATA 	Keypress: 6
+378.4313 	EXP 	text_response: autoDraw = False
+378.4313 	EXP 	fixation_cross: autoDraw = True
+379.4160 	EXP 	New trial (rep=0, index=32): OrderedDict([('imageFile', 'images/otherBaby/otherBaby5.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+379.4477 	EXP 	fixation_cross: autoDraw = False
+379.4477 	EXP 	fixation_cross: autoDraw = False
+379.4477 	EXP 	text_cue: text = 'Other child'
+379.4477 	EXP 	text_cue: autoDraw = True
+383.4391 	EXP 	text_cue: autoDraw = False
+383.4391 	EXP 	jitter_blank: autoDraw = True
+384.7339 	EXP 	jitter_blank: autoDraw = False
+384.7339 	EXP 	jitter_blank: autoDraw = False
+384.7339 	EXP 	display_image: image = 'images/otherBaby/otherBaby5.jpg'
+384.7339 	EXP 	display_image: autoDraw = True
+389.5673 	EXP 	display_image: autoDraw = False
+389.5673 	EXP 	text_response: autoDraw = True
+390.8206 	DATA 	Keypress: 8
+390.8338 	EXP 	text_response: autoDraw = False
+390.8338 	EXP 	fixation_cross: autoDraw = True
+391.6350 	EXP 	New trial (rep=0, index=33): OrderedDict([('imageFile', 'images/notBaby/notBaby7.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+391.6673 	EXP 	fixation_cross: autoDraw = False
+391.6673 	EXP 	fixation_cross: autoDraw = False
+391.6673 	EXP 	text_cue: text = 'Not a child'
+391.6673 	EXP 	text_cue: autoDraw = True
+395.6573 	EXP 	text_cue: autoDraw = False
+395.6573 	EXP 	jitter_blank: autoDraw = True
+396.2072 	EXP 	jitter_blank: autoDraw = False
+396.2072 	EXP 	jitter_blank: autoDraw = False
+396.2072 	EXP 	display_image: image = 'images/notBaby/notBaby7.jpg'
+396.2072 	EXP 	display_image: autoDraw = True
+401.1858 	EXP 	display_image: autoDraw = False
+401.1858 	EXP 	text_response: autoDraw = True
+402.9064 	DATA 	Keypress: 8
+402.9190 	EXP 	text_response: autoDraw = False
+402.9190 	EXP 	fixation_cross: autoDraw = True
+403.8926 	EXP 	New trial (rep=0, index=34): OrderedDict([('imageFile', 'images/notBaby/notBaby10.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+403.9102 	EXP 	fixation_cross: autoDraw = False
+403.9102 	EXP 	fixation_cross: autoDraw = False
+403.9102 	EXP 	text_cue: text = 'Not a child'
+403.9102 	EXP 	text_cue: autoDraw = True
+407.9251 	EXP 	text_cue: autoDraw = False
+407.9251 	EXP 	jitter_blank: autoDraw = True
+408.6081 	EXP 	jitter_blank: autoDraw = False
+408.6081 	EXP 	jitter_blank: autoDraw = False
+408.6081 	EXP 	display_image: image = 'images/notBaby/notBaby10.jpg'
+408.6081 	EXP 	display_image: autoDraw = True
+413.4378 	EXP 	display_image: autoDraw = False
+413.4378 	EXP 	display_image: autoDraw = False
+413.4378 	EXP 	text_response: autoDraw = True
+414.6748 	DATA 	Keypress: 9
+414.6886 	EXP 	text_response: autoDraw = False
+414.6886 	EXP 	fixation_cross: autoDraw = True
+415.2729 	EXP 	New trial (rep=0, index=35): OrderedDict([('imageFile', 'images/otherBaby/otherBaby18.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+415.3054 	EXP 	fixation_cross: autoDraw = False
+415.3054 	EXP 	fixation_cross: autoDraw = False
+415.3054 	EXP 	text_cue: text = 'Other child'
+415.3054 	EXP 	text_cue: autoDraw = True
+419.2786 	EXP 	text_cue: autoDraw = False
+419.2786 	EXP 	text_cue: autoDraw = False
+419.2786 	EXP 	jitter_blank: autoDraw = True
+419.8765 	EXP 	jitter_blank: autoDraw = False
+419.8765 	EXP 	jitter_blank: autoDraw = False
+419.8765 	EXP 	display_image: image = 'images/otherBaby/otherBaby18.jpg'
+419.8765 	EXP 	display_image: autoDraw = True
+424.8568 	EXP 	display_image: autoDraw = False
+424.8568 	EXP 	text_response: autoDraw = True
+425.4434 	DATA 	Keypress: 8
+425.4567 	EXP 	text_response: autoDraw = False
+425.4567 	EXP 	fixation_cross: autoDraw = True
+426.6584 	EXP 	New trial (rep=0, index=36): OrderedDict([('imageFile', 'images/otherBaby/otherBaby11.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+426.6739 	EXP 	fixation_cross: autoDraw = False
+426.6739 	EXP 	fixation_cross: autoDraw = False
+426.6739 	EXP 	text_cue: text = 'Other child'
+426.6739 	EXP 	text_cue: autoDraw = True
+430.6749 	EXP 	text_cue: autoDraw = False
+430.6749 	EXP 	jitter_blank: autoDraw = True
+431.5083 	EXP 	jitter_blank: autoDraw = False
+431.5083 	EXP 	jitter_blank: autoDraw = False
+431.5083 	EXP 	display_image: image = 'images/otherBaby/otherBaby11.jpg'
+431.5083 	EXP 	display_image: autoDraw = True
+433.9107 	DATA 	Keypress: 0
+434.4953 	DATA 	Keypress: 9
+436.4422 	EXP 	display_image: autoDraw = False
+436.4422 	EXP 	text_response: autoDraw = True
+440.4187 	EXP 	text_response: autoDraw = False
+440.4187 	EXP 	text_response: autoDraw = False
+440.4187 	EXP 	fixation_cross: autoDraw = True
+441.1611 	EXP 	New trial (rep=0, index=37): OrderedDict([('imageFile', 'images/myBaby/myBaby13.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+441.1935 	EXP 	fixation_cross: autoDraw = False
+441.1935 	EXP 	fixation_cross: autoDraw = False
+441.1935 	EXP 	text_cue: text = 'My child'
+441.1935 	EXP 	text_cue: autoDraw = True
+441.6045 	DATA 	Keypress: 6
+443.7132 	DATA 	Keypress: 6
+445.1665 	EXP 	text_cue: autoDraw = False
+445.1665 	EXP 	text_cue: autoDraw = False
+445.1665 	EXP 	jitter_blank: autoDraw = True
+445.6644 	DATA 	Keypress: 6
+446.0815 	EXP 	jitter_blank: autoDraw = False
+446.0815 	EXP 	jitter_blank: autoDraw = False
+446.0815 	EXP 	display_image: image = 'images/myBaby/myBaby13.jpg'
+446.0815 	EXP 	display_image: autoDraw = True
+450.6813 	DATA 	Keypress: 7
+451.0127 	EXP 	display_image: autoDraw = False
+451.0127 	EXP 	text_response: autoDraw = True
+454.9887 	EXP 	text_response: autoDraw = False
+454.9887 	EXP 	text_response: autoDraw = False
+454.9887 	EXP 	fixation_cross: autoDraw = True
+456.3975 	EXP 	New trial (rep=0, index=38): OrderedDict([('imageFile', 'images/notBaby/notBaby1.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+456.4292 	EXP 	fixation_cross: autoDraw = False
+456.4292 	EXP 	fixation_cross: autoDraw = False
+456.4292 	EXP 	text_cue: text = 'Not a child'
+456.4292 	EXP 	text_cue: autoDraw = True
+458.0835 	DATA 	Keypress: 7
+458.8996 	DATA 	Keypress: 6
+460.3999 	DATA 	Keypress: 9
+460.4135 	EXP 	text_cue: autoDraw = False
+460.4135 	EXP 	text_cue: autoDraw = False
+460.4135 	EXP 	jitter_blank: autoDraw = True
+461.5967 	EXP 	jitter_blank: autoDraw = False
+461.5967 	EXP 	jitter_blank: autoDraw = False
+461.5967 	EXP 	display_image: image = 'images/notBaby/notBaby1.jpg'
+461.5967 	EXP 	display_image: autoDraw = True
+466.5325 	EXP 	display_image: autoDraw = False
+466.5325 	EXP 	text_response: autoDraw = True
+469.3445 	DATA 	Keypress: 8
+469.3701 	EXP 	text_response: autoDraw = False
+469.3701 	EXP 	fixation_cross: autoDraw = True
+470.6171 	EXP 	New trial (rep=0, index=39): OrderedDict([('imageFile', 'images/notBaby/notBaby13.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+470.6325 	EXP 	fixation_cross: autoDraw = False
+470.6325 	EXP 	fixation_cross: autoDraw = False
+470.6325 	EXP 	text_cue: text = 'Not a child'
+470.6325 	EXP 	text_cue: autoDraw = True
+472.8935 	DATA 	Keypress: 7
+474.6237 	EXP 	text_cue: autoDraw = False
+474.6237 	EXP 	text_cue: autoDraw = False
+474.6237 	EXP 	jitter_blank: autoDraw = True
+475.2519 	DATA 	Keypress: 7
+476.0732 	EXP 	jitter_blank: autoDraw = False
+476.0732 	EXP 	jitter_blank: autoDraw = False
+476.0732 	EXP 	display_image: image = 'images/notBaby/notBaby13.jpg'
+476.0732 	EXP 	display_image: autoDraw = True
+478.3042 	DATA 	Keypress: 7
+479.4878 	DATA 	Keypress: 7
+479.4896 	DATA 	Keypress: 8
+479.6714 	DATA 	Keypress: 6
+480.3037 	DATA 	Keypress: minus
+480.3056 	DATA 	Keypress: 0
+480.4201 	DATA 	Keypress: 9
+481.0136 	DATA 	Keypress: 8
+481.0343 	EXP 	display_image: autoDraw = False
+481.0343 	EXP 	text_response: autoDraw = True
+481.0343 	EXP 	text_response: autoDraw = False
+481.0343 	EXP 	fixation_cross: autoDraw = True
+481.5201 	DATA 	Keypress: 9
+481.6020 	EXP 	New trial (rep=0, index=40): OrderedDict([('imageFile', 'images/myBaby/myBaby8.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+481.6338 	EXP 	fixation_cross: autoDraw = False
+481.6338 	EXP 	fixation_cross: autoDraw = False
+481.6338 	EXP 	text_cue: text = 'My child'
+481.6338 	EXP 	text_cue: autoDraw = True
+481.7036 	DATA 	Keypress: 7
+485.6241 	EXP 	text_cue: autoDraw = False
+485.6241 	EXP 	jitter_blank: autoDraw = True
+486.3933 	EXP 	jitter_blank: autoDraw = False
+486.3933 	EXP 	jitter_blank: autoDraw = False
+486.3933 	EXP 	display_image: image = 'images/myBaby/myBaby8.jpg'
+486.3933 	EXP 	display_image: autoDraw = True
+491.3042 	EXP 	display_image: autoDraw = False
+491.3042 	EXP 	text_response: autoDraw = True
+491.4059 	DATA 	Keypress: 7
+491.4193 	EXP 	text_response: autoDraw = False
+491.4193 	EXP 	fixation_cross: autoDraw = True
+492.2210 	EXP 	New trial (rep=0, index=41): OrderedDict([('imageFile', 'images/otherBaby/otherBaby17.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+492.2526 	EXP 	fixation_cross: autoDraw = False
+492.2526 	EXP 	fixation_cross: autoDraw = False
+492.2526 	EXP 	text_cue: text = 'Other child'
+492.2526 	EXP 	text_cue: autoDraw = True
+496.2373 	EXP 	text_cue: autoDraw = False
+496.2373 	EXP 	text_cue: autoDraw = False
+496.2373 	EXP 	jitter_blank: autoDraw = True
+496.9130 	EXP 	jitter_blank: autoDraw = False
+496.9130 	EXP 	jitter_blank: autoDraw = False
+496.9130 	EXP 	display_image: image = 'images/otherBaby/otherBaby17.jpg'
+496.9130 	EXP 	display_image: autoDraw = True
+500.4900 	DATA 	Keypress: 9
+501.8559 	EXP 	display_image: autoDraw = False
+501.8559 	EXP 	text_response: autoDraw = True
+501.9934 	DATA 	Keypress: 9
+502.0044 	EXP 	text_response: autoDraw = False
+502.0044 	EXP 	fixation_cross: autoDraw = True
+503.3732 	EXP 	New trial (rep=0, index=42): OrderedDict([('imageFile', 'images/notBaby/notBaby17.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+503.4047 	EXP 	fixation_cross: autoDraw = False
+503.4047 	EXP 	fixation_cross: autoDraw = False
+503.4047 	EXP 	text_cue: text = 'Not a child'
+503.4047 	EXP 	text_cue: autoDraw = True
+507.3302 	DATA 	Keypress: 8
+507.3817 	EXP 	text_cue: autoDraw = False
+507.3817 	EXP 	text_cue: autoDraw = False
+507.3817 	EXP 	jitter_blank: autoDraw = True
+508.7744 	EXP 	jitter_blank: autoDraw = False
+508.7744 	EXP 	jitter_blank: autoDraw = False
+508.7744 	EXP 	display_image: image = 'images/notBaby/notBaby17.jpg'
+508.7744 	EXP 	display_image: autoDraw = True
+512.0428 	DATA 	Keypress: 7
+513.7410 	EXP 	display_image: autoDraw = False
+513.7410 	EXP 	text_response: autoDraw = True
+514.0116 	DATA 	Keypress: 7
+514.0236 	EXP 	text_response: autoDraw = False
+514.0236 	EXP 	fixation_cross: autoDraw = True
+515.0254 	EXP 	New trial (rep=0, index=43): OrderedDict([('imageFile', 'images/notBaby/notBaby18.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+515.0406 	EXP 	fixation_cross: autoDraw = False
+515.0406 	EXP 	fixation_cross: autoDraw = False
+515.0406 	EXP 	text_cue: text = 'Not a child'
+515.0406 	EXP 	text_cue: autoDraw = True
+519.0467 	EXP 	text_cue: autoDraw = False
+519.0467 	EXP 	text_cue: autoDraw = False
+519.0467 	EXP 	jitter_blank: autoDraw = True
+519.4281 	DATA 	Keypress: 0
+520.2088 	EXP 	jitter_blank: autoDraw = False
+520.2088 	EXP 	jitter_blank: autoDraw = False
+520.2088 	EXP 	display_image: image = 'images/notBaby/notBaby18.jpg'
+520.2088 	EXP 	display_image: autoDraw = True
+523.5119 	DATA 	Keypress: 0
+525.1932 	EXP 	display_image: autoDraw = False
+525.1932 	EXP 	text_response: autoDraw = True
+526.6134 	DATA 	Keypress: 9
+526.6263 	EXP 	text_response: autoDraw = False
+526.6263 	EXP 	fixation_cross: autoDraw = True
+527.9113 	EXP 	New trial (rep=0, index=44): OrderedDict([('imageFile', 'images/myBaby/myBaby6.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+527.9432 	EXP 	fixation_cross: autoDraw = False
+527.9432 	EXP 	fixation_cross: autoDraw = False
+527.9432 	EXP 	text_cue: text = 'My child'
+527.9432 	EXP 	text_cue: autoDraw = True
+531.9201 	EXP 	text_cue: autoDraw = False
+531.9201 	EXP 	text_cue: autoDraw = False
+531.9201 	EXP 	jitter_blank: autoDraw = True
+532.7121 	EXP 	jitter_blank: autoDraw = False
+532.7121 	EXP 	jitter_blank: autoDraw = False
+532.7121 	EXP 	display_image: image = 'images/myBaby/myBaby6.jpg'
+532.7121 	EXP 	display_image: autoDraw = True
+533.4468 	DATA 	Keypress: 8
+537.5292 	EXP 	display_image: autoDraw = False
+537.5292 	EXP 	text_response: autoDraw = True
+538.6362 	DATA 	Keypress: 9
+538.6452 	EXP 	text_response: autoDraw = False
+538.6452 	EXP 	fixation_cross: autoDraw = True
+540.0802 	EXP 	New trial (rep=0, index=45): OrderedDict([('imageFile', 'images/myBaby/myBaby4.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+540.0958 	EXP 	fixation_cross: autoDraw = False
+540.0958 	EXP 	fixation_cross: autoDraw = False
+540.0958 	EXP 	text_cue: text = 'My child'
+540.0958 	EXP 	text_cue: autoDraw = True
+544.0965 	EXP 	text_cue: autoDraw = False
+544.0965 	EXP 	jitter_blank: autoDraw = True
+545.6132 	EXP 	jitter_blank: autoDraw = False
+545.6132 	EXP 	jitter_blank: autoDraw = False
+545.6132 	EXP 	display_image: image = 'images/myBaby/myBaby4.jpg'
+545.6132 	EXP 	display_image: autoDraw = True
+546.2318 	DATA 	Keypress: 9
+550.5140 	EXP 	display_image: autoDraw = False
+550.5140 	EXP 	text_response: autoDraw = True
+552.3409 	DATA 	Keypress: 9
+552.3572 	EXP 	text_response: autoDraw = False
+552.3572 	EXP 	fixation_cross: autoDraw = True
+552.8993 	EXP 	New trial (rep=0, index=46): OrderedDict([('imageFile', 'images/otherBaby/otherBaby4.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+552.9319 	EXP 	fixation_cross: autoDraw = False
+552.9319 	EXP 	fixation_cross: autoDraw = False
+552.9319 	EXP 	text_cue: text = 'Other child'
+552.9319 	EXP 	text_cue: autoDraw = True
+556.6943 	DATA 	Keypress: 9
+556.9216 	EXP 	text_cue: autoDraw = False
+556.9216 	EXP 	jitter_blank: autoDraw = True
+557.5826 	EXP 	jitter_blank: autoDraw = False
+557.5826 	EXP 	jitter_blank: autoDraw = False
+557.5826 	EXP 	display_image: image = 'images/otherBaby/otherBaby4.jpg'
+557.5826 	EXP 	display_image: autoDraw = True
+562.5003 	EXP 	display_image: autoDraw = False
+562.5003 	EXP 	text_response: autoDraw = True
+563.1706 	DATA 	Keypress: 9
+563.1828 	EXP 	text_response: autoDraw = False
+563.1828 	EXP 	fixation_cross: autoDraw = True
+563.7848 	EXP 	New trial (rep=0, index=47): OrderedDict([('imageFile', 'images/notBaby/notBaby5.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+563.8171 	EXP 	fixation_cross: autoDraw = False
+563.8171 	EXP 	fixation_cross: autoDraw = False
+563.8171 	EXP 	text_cue: text = 'Not a child'
+563.8171 	EXP 	text_cue: autoDraw = True
+564.9197 	DATA 	Keypress: 8
+567.6264 	DATA 	Keypress: 8
+567.8088 	EXP 	text_cue: autoDraw = False
+567.8088 	EXP 	jitter_blank: autoDraw = True
+568.9566 	EXP 	jitter_blank: autoDraw = False
+568.9566 	EXP 	jitter_blank: autoDraw = False
+568.9566 	EXP 	display_image: image = 'images/notBaby/notBaby5.jpg'
+568.9566 	EXP 	display_image: autoDraw = True
+572.0039 	DATA 	Keypress: 9
+572.0222 	DATA 	Keypress: 8
+572.6371 	DATA 	Keypress: 9
+573.8359 	EXP 	display_image: autoDraw = False
+573.8359 	EXP 	text_response: autoDraw = True
+577.2651 	DATA 	Keypress: 9
+577.2909 	EXP 	text_response: autoDraw = False
+577.2909 	EXP 	fixation_cross: autoDraw = True
+578.0210 	EXP 	New trial (rep=0, index=48): OrderedDict([('imageFile', 'images/notBaby/notBaby9.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+578.0364 	EXP 	fixation_cross: autoDraw = False
+578.0364 	EXP 	fixation_cross: autoDraw = False
+578.0364 	EXP 	text_cue: text = 'Not a child'
+578.0364 	EXP 	text_cue: autoDraw = True
+581.5306 	DATA 	Keypress: 0
+582.0416 	EXP 	text_cue: autoDraw = False
+582.0416 	EXP 	text_cue: autoDraw = False
+582.0416 	EXP 	jitter_blank: autoDraw = True
+582.7536 	EXP 	jitter_blank: autoDraw = False
+582.7536 	EXP 	jitter_blank: autoDraw = False
+582.7536 	EXP 	display_image: image = 'images/notBaby/notBaby9.jpg'
+582.7536 	EXP 	display_image: autoDraw = True
+584.7565 	DATA 	Keypress: 8
+585.3417 	DATA 	Keypress: 7
+587.7383 	EXP 	display_image: autoDraw = False
+587.7383 	EXP 	text_response: autoDraw = True
+588.5928 	DATA 	Keypress: 9
+588.6048 	EXP 	text_response: autoDraw = False
+588.6048 	EXP 	fixation_cross: autoDraw = True
+590.0622 	EXP 	New trial (rep=0, index=49): OrderedDict([('imageFile', 'images/otherBaby/otherBaby9.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+590.0935 	EXP 	fixation_cross: autoDraw = False
+590.0935 	EXP 	fixation_cross: autoDraw = False
+590.0935 	EXP 	text_cue: text = 'Other child'
+590.0935 	EXP 	text_cue: autoDraw = True
+591.0085 	DATA 	Keypress: 8
+591.7676 	DATA 	Keypress: 6
+593.1586 	DATA 	Keypress: 9
+593.3922 	DATA 	Keypress: 8
+594.0941 	EXP 	text_cue: autoDraw = False
+594.0941 	EXP 	text_cue: autoDraw = False
+594.0941 	EXP 	jitter_blank: autoDraw = True
+594.1813 	DATA 	Keypress: 7
+594.7057 	EXP 	jitter_blank: autoDraw = False
+594.7057 	EXP 	jitter_blank: autoDraw = False
+594.7057 	EXP 	display_image: image = 'images/otherBaby/otherBaby9.jpg'
+594.7057 	EXP 	display_image: autoDraw = True
+598.5930 	DATA 	Keypress: 9
+599.7075 	EXP 	display_image: autoDraw = False
+599.7075 	EXP 	text_response: autoDraw = True
+603.6186 	DATA 	Keypress: 9
+603.6201 	DATA 	Keypress: 8
+603.6460 	EXP 	text_response: autoDraw = False
+603.6460 	EXP 	fixation_cross: autoDraw = True
+604.2927 	EXP 	New trial (rep=0, index=50): OrderedDict([('imageFile', 'images/notBaby/notBaby3.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+604.3251 	EXP 	fixation_cross: autoDraw = False
+604.3251 	EXP 	fixation_cross: autoDraw = False
+604.3251 	EXP 	text_cue: text = 'Not a child'
+604.3251 	EXP 	text_cue: autoDraw = True
+606.5180 	DATA 	Keypress: 9
+608.3144 	EXP 	text_cue: autoDraw = False
+608.3144 	EXP 	jitter_blank: autoDraw = True
+609.8026 	EXP 	jitter_blank: autoDraw = False
+609.8026 	EXP 	jitter_blank: autoDraw = False
+609.8026 	EXP 	display_image: image = 'images/notBaby/notBaby3.jpg'
+609.8026 	EXP 	display_image: autoDraw = True
+612.1454 	DATA 	Keypress: 9
+613.1462 	DATA 	Keypress: 0
+614.4306 	DATA 	Keypress: 0
+614.6108 	EXP 	display_image: autoDraw = False
+614.6108 	EXP 	text_response: autoDraw = True
+615.6642 	DATA 	Keypress: 0
+618.5945 	EXP 	text_response: autoDraw = False
+618.5945 	EXP 	fixation_cross: autoDraw = True
+619.8054 	DATA 	Keypress: 8
+619.8714 	DATA 	Keypress: 7
+619.9356 	EXP 	New trial (rep=0, index=51): OrderedDict([('imageFile', 'images/notBaby/notBaby19.jpg'), ('textCue', 'Not a child'), ('condition', 'not_child')])
+619.9535 	EXP 	fixation_cross: autoDraw = False
+619.9535 	EXP 	fixation_cross: autoDraw = False
+619.9535 	EXP 	text_cue: text = 'Not a child'
+619.9535 	EXP 	text_cue: autoDraw = True
+620.0217 	DATA 	Keypress: 6
+620.7542 	DATA 	Keypress: 7
+622.6545 	DATA 	Keypress: 0
+623.9454 	EXP 	text_cue: autoDraw = False
+623.9454 	EXP 	text_cue: autoDraw = False
+623.9454 	EXP 	jitter_blank: autoDraw = True
+624.4240 	DATA 	Keypress: 0
+625.1643 	EXP 	jitter_blank: autoDraw = False
+625.1643 	EXP 	jitter_blank: autoDraw = False
+625.1643 	EXP 	display_image: image = 'images/notBaby/notBaby19.jpg'
+625.1643 	EXP 	display_image: autoDraw = True
+629.6654 	DATA 	Keypress: 8
+629.9834 	DATA 	Keypress: 6
+630.0476 	EXP 	display_image: autoDraw = False
+630.0476 	EXP 	text_response: autoDraw = True
+631.1657 	DATA 	Keypress: 7
+631.1797 	EXP 	text_response: autoDraw = False
+631.1797 	EXP 	fixation_cross: autoDraw = True
+632.5807 	EXP 	New trial (rep=0, index=52): OrderedDict([('imageFile', 'images/otherBaby/otherBaby10.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+632.6132 	EXP 	fixation_cross: autoDraw = False
+632.6132 	EXP 	fixation_cross: autoDraw = False
+632.6132 	EXP 	text_cue: text = 'Other child'
+632.6132 	EXP 	text_cue: autoDraw = True
+633.8011 	DATA 	Keypress: 6
+636.5978 	EXP 	text_cue: autoDraw = False
+636.5978 	EXP 	jitter_blank: autoDraw = True
+637.1995 	DATA 	Keypress: 6
+637.7050 	EXP 	jitter_blank: autoDraw = False
+637.7050 	EXP 	jitter_blank: autoDraw = False
+637.7050 	EXP 	display_image: image = 'images/otherBaby/otherBaby10.jpg'
+637.7050 	EXP 	display_image: autoDraw = True
+640.3676 	DATA 	Keypress: 0
+641.0685 	DATA 	Keypress: 6
+642.5488 	EXP 	display_image: autoDraw = False
+642.5488 	EXP 	text_response: autoDraw = True
+643.1026 	DATA 	Keypress: 7
+643.1155 	EXP 	text_response: autoDraw = False
+643.1155 	EXP 	fixation_cross: autoDraw = True
+643.7336 	EXP 	New trial (rep=0, index=53): OrderedDict([('imageFile', 'images/myBaby/myBaby17.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+643.7652 	EXP 	fixation_cross: autoDraw = False
+643.7652 	EXP 	fixation_cross: autoDraw = False
+643.7652 	EXP 	text_cue: text = 'My child'
+643.7652 	EXP 	text_cue: autoDraw = True
+647.6261 	DATA 	Keypress: 8
+647.7420 	EXP 	text_cue: autoDraw = False
+647.7420 	EXP 	text_cue: autoDraw = False
+647.7420 	EXP 	jitter_blank: autoDraw = True
+648.5865 	EXP 	jitter_blank: autoDraw = False
+648.5865 	EXP 	jitter_blank: autoDraw = False
+648.5865 	EXP 	display_image: image = 'images/myBaby/myBaby17.jpg'
+648.5865 	EXP 	display_image: autoDraw = True
+649.2031 	DATA 	Keypress: 8
+649.4363 	DATA 	Keypress: 6
+651.6041 	DATA 	Keypress: 6
+652.5713 	DATA 	Keypress: 0
+652.9878 	DATA 	Keypress: 7
+653.4041 	DATA 	Keypress: 0
+653.5354 	EXP 	display_image: autoDraw = False
+653.5354 	EXP 	text_response: autoDraw = True
+656.2302 	DATA 	Keypress: 9
+656.2560 	EXP 	text_response: autoDraw = False
+656.2560 	EXP 	fixation_cross: autoDraw = True
+656.9526 	EXP 	New trial (rep=0, index=54): OrderedDict([('imageFile', 'images/myBaby/myBaby5.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+656.9683 	EXP 	fixation_cross: autoDraw = False
+656.9683 	EXP 	fixation_cross: autoDraw = False
+656.9683 	EXP 	text_cue: text = 'My child'
+656.9683 	EXP 	text_cue: autoDraw = True
+660.9692 	EXP 	text_cue: autoDraw = False
+660.9692 	EXP 	text_cue: autoDraw = False
+660.9692 	EXP 	jitter_blank: autoDraw = True
+661.3219 	DATA 	Keypress: 0
+661.3384 	DATA 	Keypress: 9
+661.6291 	DATA 	Keypress: 0
+662.0767 	EXP 	jitter_blank: autoDraw = False
+662.0767 	EXP 	jitter_blank: autoDraw = False
+662.0767 	EXP 	display_image: image = 'images/myBaby/myBaby5.jpg'
+662.0767 	EXP 	display_image: autoDraw = True
+666.4901 	DATA 	Keypress: 9
+666.9374 	EXP 	display_image: autoDraw = False
+666.9374 	EXP 	text_response: autoDraw = True
+667.8736 	DATA 	Keypress: 7
+667.8869 	EXP 	text_response: autoDraw = False
+667.8869 	EXP 	fixation_cross: autoDraw = True
+669.2717 	EXP 	New trial (rep=0, index=55): OrderedDict([('imageFile', 'images/otherBaby/otherBaby19.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+669.3039 	EXP 	fixation_cross: autoDraw = False
+669.3039 	EXP 	fixation_cross: autoDraw = False
+669.3039 	EXP 	text_cue: text = 'Other child'
+669.3039 	EXP 	text_cue: autoDraw = True
+670.0124 	DATA 	Keypress: 7
+670.5296 	DATA 	Keypress: 9
+673.2874 	EXP 	text_cue: autoDraw = False
+673.2874 	EXP 	text_cue: autoDraw = False
+673.2874 	EXP 	jitter_blank: autoDraw = True
+674.0236 	DATA 	Keypress: 0
+674.4749 	EXP 	jitter_blank: autoDraw = False
+674.4749 	EXP 	jitter_blank: autoDraw = False
+674.4749 	EXP 	display_image: image = 'images/otherBaby/otherBaby19.jpg'
+674.4749 	EXP 	display_image: autoDraw = True
+675.4579 	DATA 	Keypress: 9
+676.3424 	DATA 	Keypress: 8
+676.5589 	DATA 	Keypress: 7
+679.0418 	DATA 	Keypress: 0
+679.1430 	DATA 	Keypress: 7
+679.3722 	EXP 	display_image: autoDraw = False
+679.3722 	EXP 	text_response: autoDraw = True
+680.9778 	DATA 	Keypress: 9
+680.9893 	EXP 	text_response: autoDraw = False
+680.9893 	EXP 	fixation_cross: autoDraw = True
+681.5574 	EXP 	New trial (rep=0, index=56): OrderedDict([('imageFile', 'images/otherBaby/otherBaby1.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+681.5729 	EXP 	fixation_cross: autoDraw = False
+681.5729 	EXP 	fixation_cross: autoDraw = False
+681.5729 	EXP 	text_cue: text = 'Other child'
+681.5729 	EXP 	text_cue: autoDraw = True
+683.5510 	DATA 	Keypress: 9
+683.7695 	DATA 	Keypress: 7
+685.5797 	EXP 	text_cue: autoDraw = False
+685.5797 	EXP 	jitter_blank: autoDraw = True
+685.8428 	DATA 	Keypress: 0
+685.8599 	DATA 	Keypress: 9
+686.2599 	DATA 	Keypress: 7
+686.4093 	EXP 	jitter_blank: autoDraw = False
+686.4093 	EXP 	jitter_blank: autoDraw = False
+686.4093 	EXP 	display_image: image = 'images/otherBaby/otherBaby1.jpg'
+686.4093 	EXP 	display_image: autoDraw = True
+687.7090 	DATA 	Keypress: 0
+688.0769 	DATA 	Keypress: 7
+689.8601 	DATA 	Keypress: 9
+690.1282 	DATA 	Keypress: 7
+691.3421 	EXP 	display_image: autoDraw = False
+691.3421 	EXP 	text_response: autoDraw = True
+691.6614 	DATA 	Keypress: 9
+691.6748 	EXP 	text_response: autoDraw = False
+691.6748 	EXP 	fixation_cross: autoDraw = True
+691.9441 	DATA 	Keypress: 7
+692.6929 	EXP 	New trial (rep=0, index=57): OrderedDict([('imageFile', 'images/myBaby/myBaby11.jpg'), ('textCue', 'My child'), ('condition', 'own_child')])
+692.7247 	EXP 	fixation_cross: autoDraw = False
+692.7247 	EXP 	fixation_cross: autoDraw = False
+692.7247 	EXP 	text_cue: text = 'My child'
+692.7247 	EXP 	text_cue: autoDraw = True
+692.7275 	DATA 	Keypress: 0
+693.8681 	DATA 	Keypress: 9
+696.7139 	EXP 	text_cue: autoDraw = False
+696.7139 	EXP 	text_cue: autoDraw = False
+696.7139 	EXP 	jitter_blank: autoDraw = True
+697.0612 	DATA 	Keypress: 9
+697.2964 	DATA 	Keypress: 7
+697.8262 	EXP 	jitter_blank: autoDraw = False
+697.8262 	EXP 	jitter_blank: autoDraw = False
+697.8262 	EXP 	display_image: image = 'images/myBaby/myBaby11.jpg'
+697.8262 	EXP 	display_image: autoDraw = True
+697.9089 	DATA 	Keypress: 9
+698.1798 	DATA 	Keypress: 8
+699.7290 	DATA 	Keypress: 9
+700.2633 	DATA 	Keypress: 7
+702.7605 	EXP 	display_image: autoDraw = False
+702.7605 	EXP 	text_response: autoDraw = True
+702.8463 	DATA 	Keypress: 7
+702.8602 	EXP 	text_response: autoDraw = False
+702.8602 	EXP 	fixation_cross: autoDraw = True
+702.9127 	DATA 	Keypress: 9
+703.7141 	DATA 	Keypress: 9
+703.8471 	DATA 	Keypress: 0
+704.1615 	EXP 	New trial (rep=0, index=58): OrderedDict([('imageFile', 'images/otherBaby/otherBaby8.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+704.1938 	EXP 	fixation_cross: autoDraw = False
+704.1938 	EXP 	fixation_cross: autoDraw = False
+704.1938 	EXP 	text_cue: text = 'Other child'
+704.1938 	EXP 	text_cue: autoDraw = True
+706.9639 	DATA 	Keypress: 6
+708.1837 	EXP 	text_cue: autoDraw = False
+708.1837 	EXP 	jitter_blank: autoDraw = True
+708.8635 	DATA 	Keypress: 6
+709.4444 	EXP 	jitter_blank: autoDraw = False
+709.4444 	EXP 	jitter_blank: autoDraw = False
+709.4444 	EXP 	display_image: image = 'images/otherBaby/otherBaby8.jpg'
+709.4444 	EXP 	display_image: autoDraw = True
+709.8981 	DATA 	Keypress: 6
+712.4981 	DATA 	Keypress: 6
+714.3621 	EXP 	display_image: autoDraw = False
+714.3621 	EXP 	text_response: autoDraw = True
+714.4486 	DATA 	Keypress: 6
+714.4625 	EXP 	text_response: autoDraw = False
+714.4625 	EXP 	fixation_cross: autoDraw = True
+715.5639 	EXP 	New trial (rep=0, index=59): OrderedDict([('imageFile', 'images/otherBaby/otherBaby14.jpg'), ('textCue', 'Other child'), ('condition', 'other_child')])
+715.5796 	EXP 	fixation_cross: autoDraw = False
+715.5796 	EXP 	fixation_cross: autoDraw = False
+715.5796 	EXP 	text_cue: text = 'Other child'
+715.5796 	EXP 	text_cue: autoDraw = True
+719.5721 	EXP 	text_cue: autoDraw = False
+719.5721 	EXP 	text_cue: autoDraw = False
+719.5721 	EXP 	jitter_blank: autoDraw = True
+720.3839 	EXP 	jitter_blank: autoDraw = False
+720.3839 	EXP 	jitter_blank: autoDraw = False
+720.3839 	EXP 	display_image: image = 'images/otherBaby/otherBaby14.jpg'
+720.3839 	EXP 	display_image: autoDraw = True
+720.5158 	DATA 	Keypress: 0
+720.5327 	DATA 	Keypress: 9
+721.6999 	DATA 	Keypress: 0
+723.9838 	DATA 	Keypress: 0
+725.3977 	EXP 	display_image: autoDraw = False
+725.3977 	EXP 	text_response: autoDraw = True
+729.3654 	EXP 	text_response: autoDraw = False
+729.3654 	EXP 	fixation_cross: autoDraw = True
+729.6516 	DATA 	Keypress: 0
+729.7026 	DATA 	Keypress: 9
+729.9851 	DATA 	Keypress: 6
+730.1369 	EXP 	fixation_cross: autoDraw = False
+730.1369 	EXP 	fixation_cross: autoDraw = False
+730.1369 	EXP 	text_end: autoDraw = True
+738.5768 	DATA 	Keypress: 0
+740.1176 	EXP 	text_end: autoDraw = False
+740.1176 	EXP 	text_end: autoDraw = False
+740.4097 	EXP 	window1: mouseVisible = True
