@@ -23,7 +23,7 @@ Basic parameters:
 
 The images used during the task should be stored in `images/`.  
 
-The `images/` subfolders are currently named:  
+The `images/` subfolders are currently expected to have the names:  
 
 - `myBaby/`  
 - `notBaby/`  
